@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginIn</title>
+    <style>
+        body {
+            background-color: deepskyblue;
+        }
+
+        #Loginbody {
+            text-align: center;
+            margin: auto;
+            background-color: white;
+            width: 20%;
+            height: 450px;
+            padding: 50px;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+
+
+        input {
+            color: gray;
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            border-bottom: 2px solid gray;
+            width: 95%;
+            height: 40px;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 95%;
+            height: 50px;
+            font-size: 20px;
+            background-color: deepskyblue;
+            font-weight: bold;
+            margin-top: 50px;
+            color: white
+        }
+
+        #passwordSec {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 4px;
+            margin-top: 30px;
+        }
+
+        #SinginSec {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 4px;
+        }
+
+        .password{
+            color: deepskyblue;
+        }
+        .sign{
+            color: deepskyblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Loginbody">
+        <div>
+            <h1 class="login">Login</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Password">
+        </div>
+
+        <button class="login">Login</button>
+
+        <div>
+            <div id="passwordSec">
+                <p class="forgetpass">Forget</p>
+                <p class="password">Password?</p>
+            </div>
+            <div id="SinginSec">
+                <p class="dont">Dont have an account?</p>
+                <p class="sign">Sing up</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
